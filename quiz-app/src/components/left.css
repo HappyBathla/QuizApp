@@ -1,0 +1,72 @@
+.outer {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+  .outer h2 {
+    font-size: 30px;
+    margin-bottom: 27px;
+    font-weight: 700;
+  }
+  
+  .inside1 {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 5px 20px; /* Adjust as needed for smaller screens */
+    font-size: 17px;
+    color: #374eb2;
+    background-color: #fff0cc;
+    font-weight: 500;
+  }
+  
+  .horizontal {
+    width: 100%; /* Adjust to make it responsive */
+    margin-top: 80px; /* Adjust as needed for smaller screens */
+  }
+  
+  .insidediv {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Adjust as needed for smaller screens */
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .faplay {
+    margin-right: 5px;
+  }
+  
+  .insidediv span {
+    font-size: 15px;
+    margin-right: 80px; /* Adjust as needed for smaller screens */
+  }
+  
+  .insidediv p {
+    font-size: 12px;
+    color: lightgrey;
+  }
+  
+  .mddone {
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+    padding: 2px;
+    margin-left: 2px;
+  }
+  
+  /* Responsive CSS */
+  @media (max-width: 768px) {
+    .inside1 {
+      padding: 5px 10px; /* Adjust as needed for smaller screens */
+    }
+  
+    .horizontal {
+      width: 100%;
+    }
+  
+    .insidediv span {
+      margin-right: 10px; /* Adjust as needed for smaller screens */
+    }
+  }
+  

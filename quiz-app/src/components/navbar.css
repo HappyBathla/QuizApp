@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* 
+ 
+
+/* navbar style start  */
+
+.main-nav {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.list p {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.list:hover {
+  color: orange;
+}
+
+.icon {
+  font-size: 15px;
+}
+
+.icon2 {
+  font-size: 25px;
+  color: lightslategray;
+}
+
+.oneline {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  font-size: 35px;
+  padding: 0 4px;
+  color: lightslategray;
+}
+
+.divider {
+  font-size: 25px;
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height: 7rem;
+  }
+
+  .logo {
+    height: 2rem;
+    width: 70px;
+  }
+
+  .list {
+    display: none; /* Hide the navigation list */
+  }
+
+  .icon2 {
+    display: block; /* Show the menu icon */
+  }
+}
+
+@media (max-width: 798px) {
+  .main-nav {
+    height: 6rem;
+  }
+
+  .logo {
+    height: 6rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .main-nav {
+    height: 6rem;
+  }
+
+  .logo {
+    height: 6rem;
+  }
+}

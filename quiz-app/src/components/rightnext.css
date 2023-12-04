@@ -1,0 +1,87 @@
+.rightnext {
+    padding-top: 30px;
+    padding-left: 120px; /* Adjust as needed for smaller screens */
+  }
+  
+  .rightnext span {
+    font-size: 15px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 520px; /* Adjust as needed for smaller screens */
+    
+  }
+  
+  .rightnext h1 {
+    margin-top: 50px; /* Adjust as needed for smaller screens */
+    font-size: 35px;
+  }
+  
+  .flag {
+    margin-top: 20px; /* Adjust as needed for smaller screens */
+    font-size: 17px;
+    color: white;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    max-width: 200px; /* Adjust as needed for smaller screens */
+    margin-left: 20;
+    margin-right: auto;
+  }
+  
+  .butt button {
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 10px; /* Adjust as needed for smaller screens */
+    margin-top: 20px;
+  }
+  
+  .speak {
+    font-size: 40px; /* Adjust as needed for smaller screens */
+    margin-top: 30px; /* Adjust as needed for smaller screens */
+    color: white;
+    background-color: green;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  .question h2{
+    margin-top: 20px;
+      font-size: 24px;
+  }
+  .question h3{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .question li{
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .question button{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: green;
+  }
+  /* Responsive CSS */
+  @media (max-width: 768px) {
+    .rightnext {
+      padding-left: 10px;
+    }
+  
+    .rightnext span,
+    .rightnext h1,
+    .flag,
+    .butt button,
+    .speak {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
